@@ -4,40 +4,12 @@
   padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background: rgba(249, 249, 249, 0.653);
+  height: 100vh;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 nav {
   position: fixed;
@@ -72,7 +44,6 @@ nav {
 .container {
   width: 80%;
   margin-left: 100px;
-  margin-top: 10%;
 }
 
 .accordion__button {
@@ -85,10 +56,18 @@ nav {
   margin-right: 5%;
 }
 
+.project-accordion {
+  padding-top: 10%;
+}
+
 .project-panel {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.accordion__panel {
+  background-color: rgba(110, 176, 211, 0.091);
 }
 
 .proj-comments {
@@ -116,6 +95,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-content: flex-start;
+  padding: 2%;
 }
 
 .proj-latest {
