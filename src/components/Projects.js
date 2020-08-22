@@ -45,7 +45,18 @@ const Projects = (props) => {
                                 </ul>
                             </div>
                             <div className="proj-comments">
-
+                                <div className="proj-user-comment">
+                                    <img src="https://img.icons8.com/nolan/64/dog.png"/>
+                                    <div className="short-comment">Exercitation in fugiat est ut ad ea cupidatat</div>
+                                </div>
+                                <div className="proj-user-comment">
+                                    <img src="https://img.icons8.com/nolan/64/cat.png"/>
+                                    <div className="short-comment">ut in cupidatat occaecat ut occaecat consequat</div>
+                                </div>
+                                <div className="proj-user-comment">
+                                    <img src="https://img.icons8.com/nolan/64/dog.png"/>
+                                    <div className="short-comment">adipisicing eu reprehenderit enim</div>
+                                </div>
                             </div>
                             <div className="proj-buttons">
                                 <img src="https://img.icons8.com/nolan/64/speech-bubble-with-dots.png"/>

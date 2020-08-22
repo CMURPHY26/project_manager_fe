@@ -92,6 +92,21 @@ nav {
 .project-panel {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.proj-user-comment {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.short-comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 5%;
 }
 
 @media only screen and (max-width: 600px) {
