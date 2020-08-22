@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -95,8 +91,14 @@ nav {
   flex-wrap: wrap;
 }
 
+.proj-comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .proj-user-comment {
-  width: 300px;
+  width: 450px;
   display: flex;
   justify-content: space-between;
 }
@@ -107,6 +109,17 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   margin-left: 5%;
+}
+
+.proj-progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.proj-latest {
+  margin-top: 5%;
 }
 
 @media only screen and (max-width: 600px) {
