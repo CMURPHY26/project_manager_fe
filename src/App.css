@@ -122,6 +122,12 @@ nav {
   margin-top: 5%;
 }
 
+.proj-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 600px) {
   .accordion__item {
     min-width: 200px !important;
