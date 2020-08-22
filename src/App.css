@@ -47,13 +47,14 @@ nav {
   width: 100px;
 }
 
-.nav > ul {
+.nav ul {
   list-style: none;
   padding: 0;
 }
 
-.nav > ul > li {
+.nav li {
   padding: 5%;
+  text-align: center;
 }
 
 .nav {
@@ -63,4 +64,5 @@ nav {
 .bottom-nav ul {
   position: fixed;
   bottom: 0;
+  width: 100px;
 }

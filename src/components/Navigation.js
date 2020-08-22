@@ -8,7 +8,7 @@ const Navigation = (props) => {
         <nav>
             <div className="top-nav nav">
                 <ul>
-                    <li>Home</li>
+                    <li><img src="https://img.icons8.com/nolan/64/project-management.png"/></li>
                     <li>Projects</li>
                     <li>Calendar</li>
                 </ul>
@@ -16,7 +16,7 @@ const Navigation = (props) => {
             <div className="bottom-nav nav">
                 <ul>
                     <li>Account</li>
-                    <li>Sign-Up/Login</li>
+                    <li><img src="https://img.icons8.com/nolan/64/login-rounded-right.png"/></li>
                 </ul>
             </div>
         </nav>
