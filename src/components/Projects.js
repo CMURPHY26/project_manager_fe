@@ -32,9 +32,9 @@ const Projects = (props) => {
                                     <h2>Progress</h2>
                                     <PieChart style={{ height: '150px' }}
                                         data={[
-                                            { title: 'One', value: 10, color: '#E38627' },
-                                            { title: 'Two', value: 15, color: '#C13C37' },
-                                            { title: 'Three', value: 20, color: '#6A2135' },
+                                            { title: 'One', value: 10, color: '#9c63ed' },
+                                            { title: 'Two', value: 15, color: '#6ded7c' },
+                                            { title: 'Three', value: 20, color: '#fe8170' },
                                         ]}
                                     />
                                 </div>
