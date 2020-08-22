@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -80,6 +76,67 @@ nav {
 }
 
 .accordion__button {
-  background-color: #B4B5FB !important;
+  background-color: #1A6DFF !important;
   color: white !important;
 }
+
+.accordion__item {
+  min-width: 200px !important;
+  margin-right: 5%;
+}
+
+.project-panel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.proj-comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.proj-user-comment {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.short-comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.proj-progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.proj-latest {
+  margin-top: 5%;
+}
+
+.proj-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .accordion__item {
+    min-width: 200px !important;
+    margin-right: 20%;
+  }
+
+  .container {
+    width: 80%;
+    margin: 10% auto;
+  }
+}
+
