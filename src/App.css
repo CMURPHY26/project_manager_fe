@@ -83,3 +83,26 @@ nav {
   background-color: #B4B5FB !important;
   color: white !important;
 }
+
+.accordion__item {
+  min-width: 200px !important;
+  margin-right: 5%;
+}
+
+.project-panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .accordion__item {
+    min-width: 200px !important;
+    margin-right: 20%;
+  }
+
+  .container {
+    width: 80%;
+    margin: 10% auto;
+  }
+}
+
