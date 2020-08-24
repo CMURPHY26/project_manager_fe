@@ -1,0 +1,42 @@
+.signin {
+    width: 60%;
+    max-width: 600px;
+    margin: 150px auto;
+}
+
+.signin header {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.signin-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-form input {
+    width: 100%;
+    line-height: 30px;
+    position: relative;
+}
+
+.signin-form label {
+    text-align: left;
+}
+
+.signin-form a {
+    text-align: left;
+}
+
+.signin-form button {
+    font-size: 18px;
+    line-height: 35px;
+    border-radius: 18px;
+    border: 2px solid #0d91ca;
+    background-color: #0d91ca;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
